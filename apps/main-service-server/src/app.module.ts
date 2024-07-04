@@ -17,6 +17,7 @@ import { redisStore } from "cache-manager-ioredis-yet";
 import { RoleModule } from "./role/role.module";
 import { PageModule } from "./page/page.module";
 import { UserModule } from "./user/user.module";
+import { SamplePagesModule } from "./SamplePages/samplepages.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -40,6 +41,7 @@ import { AuthModule } from "./auth/auth.module";
     RoleModule,
     PageModule,
     UserModule,
+    SamplePagesModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
